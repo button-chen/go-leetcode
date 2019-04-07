@@ -1,0 +1,47 @@
+﻿一:  实现Trie(前缀树).go
+
+208. 实现 Trie (前缀树)
+实现一个 Trie (前缀树)，包含 insert, search, 和 startsWith 这三个操作。
+
+示例:
+
+Trie trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");   // 返回 true
+trie.search("app");     // 返回 false
+trie.startsWith("app"); // 返回 true
+trie.insert("app");   
+trie.search("app");     // 返回 true
+
+说明:
+
+你可以假设所有的输入都是由小写字母 a-z 构成的。
+保证所有输入均为非空字符串。
+
+
+二:  添加与搜索单词-数据结构设计.go
+
+211. 添加与搜索单词 - 数据结构设计
+
+设计一个支持以下两种操作的数据结构：
+
+void addWord(word)
+bool search(word)
+search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 . 或 a-z 。 . 可以表示任何一个字母。
+
+示例:
+
+addWord("bad")
+addWord("dad")
+addWord("mad")
+search("pad") -> false
+search("bad") -> true
+search(".ad") -> true
+search("b..") -> true
+
+说明:
+
+你可以假设所有单词都是由小写字母 a-z 组成的。
+
+
